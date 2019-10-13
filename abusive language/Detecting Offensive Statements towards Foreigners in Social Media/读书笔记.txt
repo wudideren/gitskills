@@ -1,0 +1,29 @@
+Uwe Bretschneider and Ralf Peters. 2017. Detecting
+offensive statements towards foreigners in social
+media. In Proceedings of the 50th Hawaii Interna-
+tional Conference on System Sciences.
+
+研究的问题：
+在社交媒体上检测针对外国人的敏感词
+
+目标：
+外国人和难民
+
+方法：
+一 数据预处理，分词，去除缩写和俚语
+二 引用检测（使用引用库）
+三 敏感词检测(敏感词模式和敏感词库）
+四 引用解析--关联引用到某个群体
+
+使用的分类任务
+Rapid Miner
+
+结果与结论：
+提出，实现并且评估了一个自动检测针对外国人的敏感词检测方法
+
+存在的问题：
+保留言论自由和保护用户免受网络暴力间的冲突
+
+观点的不足与尚未提出的问题：
+没有考虑敏感词发布者的特征
+不能检测意译的敏感词

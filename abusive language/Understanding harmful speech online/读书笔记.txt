@@ -1,0 +1,19 @@
+Robert Faris, Amar Ashar, Urs Gasser, and Daisy Joo.
+2016. Understanding harmful speech online. Berk-
+man Klein Center Research Publication 21.
+
+研究的问题：
+敏感词的定义和各种解决敏感词检测的优缺点和效果
+
+目标：
+在线敏感词
+
+方法：
+对比
+
+结果与结论：
+本文主要描述了在将来的研究中三个主要关注点，和可能的介入
+
+存在的问题：
+
+观点的不足与尚未解决的问题：

@@ -1,0 +1,34 @@
+Thomas Davidson, Dana Warmsley, Micheel Macy,
+and Ingmar Weber. 2017. Automated hate speech
+detection and the problem of offensive language. In
+Proceedings of the Eleventh International Confer-
+ence on Web and Social Media. Montreal, Canada,
+pages 512–515.
+
+研究的问题：
+划分更为细致的敏感词检测
+
+目标：
+推特
+
+方法：
+多元分类器--三类 hate speech  offensive language neither 逻辑回归 one versus rest
+分词： Porter stemmer
+特征：
+n-gram 权重TF-IDF
+语法结构 NLTK 构造Penn POS 标签n-gram
+Flesch-Kincaid Grade Level  Flesch Reading Ease scores
+每条推特分配一个情感分数
+等等
+
+结果与结论：
+hate speech 很难去定义，明显的敏感词容易确定，尤其是反黑人种族歧视和厌恶同性恋
+
+
+存在的问题：
+可能会误分类hate speech 如果推特没有包含任何敏感词
+
+
+观点的不足与尚未提出的问题：
+将来会区分hate speech的不同使用场景
+关注和学习发送敏感词的用户，他们的个人特征和动机

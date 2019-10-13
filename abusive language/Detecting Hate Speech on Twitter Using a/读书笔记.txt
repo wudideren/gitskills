@@ -1,0 +1,26 @@
+Ziqi Zhang, David Robinson, and John Tepper. Detecting hate
+speech on Twitter using a convolution-GRU based deep neural network. 
+In Proceedings of the 15th Extended Semantic Web Conference, ESWC’18,
+ pages 745–760, Berline, Germany, 2018. Springer. doi:10.1007/978-3-319-93417-4_48.
+
+
+研究的问题：
+检测推特上的敏感词
+
+目标：
+推特上的敏感词
+
+方法：
+卷积神经网络和门控循环单元
+
+结果和结论：
+本文提出的结合CNN与GRU的深度神经网络模型改善了分类精度
+在一个最大的公共数据集上进行了比较评估，并且显示在大多数情况下本文提出的方法更优，给将来的比较性研究提供了新的参考
+创建和发布了另一个有关宗教(穆斯林)和难民的敏感词数据集，补充了现有的数据集
+
+存在的问题：
+
+观点的不足与尚未提出的问题：
+将来会使用不同的网络结构去抽取不同的特征
+探索不同的词嵌套对学习的影响
+合并用户为中心的特征，如用户发表敏感词言论的频率以及和其他用户的相互影响

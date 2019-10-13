@@ -1,0 +1,22 @@
+Chikashi Nobata, Joel Tetreault, Achint Thomas,
+Yashar Mehdad, and Yi Chang. 2016. Abusive language detection in online user content. In Proceedings of the 25th International Conference on World
+Wide Web, pages 145–153, Geneva, Switzerland.
+
+研究的问题：
+针对在线用户评论的敏感词检测
+
+目标：
+在线用户评论，金融和新闻领域
+
+方法：
+监督学习中的分类方法使用自然语言处理特征
+
+结果和结论：
+提供了一个公共数据集，并且执行了一系列的自然语言特征的评估
+本文的模型比一个基于深度学习的模型表现的更好，在每次迭代不得不重新训练embeddings的问题下
+
+存在的问题：
+大多数工作目前只是针对英文敏感词
+
+观点的不足与尚未提出的问题：
+增加更多的特征--比如上下文特征（引用的文章，之前的评论，回复）和有关评论者过去的行为和评论
